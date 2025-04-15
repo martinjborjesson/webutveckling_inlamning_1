@@ -1,3 +1,21 @@
 :root {
-    --color-primary: #ff6600;
+  --color-primary: #ff6600;
 }
+
+html,
+body {
+  background-color: #A0A0A0;
+}
+
+/* .font-test {
+  font-family: "BlenderPro-Bold";
+  font-size: 100px;
+}
+
+.font-test-two {
+  font-family: "Libre Franklin";
+  font-size: 16px;
+  color: #202020;
+  font-weight: 400;
+  line-height: 26px;
+} */
