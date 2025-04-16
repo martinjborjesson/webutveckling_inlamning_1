@@ -26,6 +26,7 @@ header .icon {
 }
 
 header .brand {
+  display: flex;
   background-color: var(--color-primary);
   width: 115px;
   height: 127.7px;

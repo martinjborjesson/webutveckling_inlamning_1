@@ -7,6 +7,10 @@ body {
   background-color: #A0A0A0;
 }
 
+.content-container {
+  /* asdf */
+}
+
 /* .font-test {
   font-family: "BlenderPro-Bold";
   font-size: 100px;
@@ -19,3 +23,16 @@ body {
   font-weight: 400;
   line-height: 26px;
 } */
+
+/* 36rem */
+@media (width >=576px) {}
+
+/* 48rem */
+@media (width >=768px) {}
+
+/* 62rem */
+/* Black menu bar */
+@media (width >=992px) {}
+
+/* 80rem */
+@media (width >=1280px) {}
