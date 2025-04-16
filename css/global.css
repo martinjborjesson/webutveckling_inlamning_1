@@ -5,10 +5,16 @@
 html,
 body {
   background-color: #A0A0A0;
+  margin: 0;
 }
 
 .content-container {
   /* asdf */
+}
+
+.ktm-text {
+  font-family: "BlenderPro-Bold";
+  text-decoration: none;
 }
 
 /* .font-test {
