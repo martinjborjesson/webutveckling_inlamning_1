@@ -1,0 +1,9 @@
+main {
+  /* asdf */
+}
+
+.menu {
+  background-color: black;
+  border-top: 2px;
+  border-color: var(--color-primary);
+}
