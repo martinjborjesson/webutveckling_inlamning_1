@@ -17,6 +17,15 @@ body {
   text-decoration: none;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.list-decoration {
+  list-style: none;
+}
+
 /* .font-test {
   font-family: "BlenderPro-Bold";
   font-size: 100px;
