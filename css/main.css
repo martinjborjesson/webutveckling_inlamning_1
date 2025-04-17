@@ -2,6 +2,31 @@ main {
   /* asdf */
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bullet {
+  all: unset;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 10px 2px;
+  border: none;
+}
+
+.bullet-bar {
+  min-height: 3px;
+  min-width: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.active {
+  background-color: var(--color-primary);
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -22,9 +47,6 @@ main {
 }
 
 .btn-orange {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: var(--color-primary);
   color: white;
   border: var(--color-primary) solid 1px;
@@ -41,9 +63,6 @@ main {
 }
 
 .btn-signup {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #00000000;
   color: var(--color-primary);
   border: var(--color-primary) solid 1px;
