@@ -25,7 +25,12 @@ header .icon {
 
 header .brand {
   display: flex;
+  justify-content: flex-end;
   background-color: var(--color-primary);
   width: 115px;
   height: 127.7px;
+}
+
+header .brand img {
+  max-width: 100%;
 }
