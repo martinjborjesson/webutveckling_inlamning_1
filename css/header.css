@@ -1,7 +1,8 @@
 header {
   flex-direction: row;
   justify-content: space-between;
-  height: 47px;
+  height: 74px;
+  padding-left: 10px;
 }
 
 header nav a {
@@ -14,21 +15,28 @@ header .icon {
   color: var(--color-primary)
 }
 
-header .brand {
-  display: flex;
-  justify-content: flex-end;
+.brand {
   background-color: var(--color-primary);
-  width: 115px;
-  height: 127.7px;
+  justify-content: center;
+  cursor: pointer;
+  width: 81px;
+  height: 74px;
 }
 
 header .brand img {
-  max-width: 100%;
+  max-width: 75%;
+  margin-bottom: 2rem;
 }
 
 .navbar {
   display: none;
   gap: 2rem;
+}
+
+.header-menu-icon {
+  font-size: 20px;
+  text-decoration: none;
+  padding-left: 6px;
 }
 
 .header-icons {

@@ -4,12 +4,12 @@
 
 html,
 body {
-  background-color: #A0A0A0;
+  /* background-color: #A0A0A0; */
   margin: 0;
 }
 
 .content-container {
-  /* asdf */
+  padding-left: 10px;
 }
 
 .ktm-text {
@@ -24,6 +24,12 @@ body {
 
 .list-decoration {
   list-style: none;
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* .font-test {
