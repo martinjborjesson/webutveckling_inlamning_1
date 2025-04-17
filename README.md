@@ -5,6 +5,22 @@
 >
 >**Originalhemsida**: <a href="https://www.ktm.com/en-se.html">KTM Sverige (startsidan)</a>
 
+| Element | progress | Partially complete | Fully complete |
+| :-                | :-: | :-: | :-: |
+| Header            | [X] | [ ] | [ ] |
+| Main article      | [X] | [ ] | [ ] |
+| Page bullets      | [ ] | [ ] | [X] |
+| Black menu        | [ ] | [X] | [ ] |
+| Recently launched | [ ] | [ ] | [ ] |
+| Discover more     | [ ] | [ ] | [ ] |
+| X-BOW             | [ ] | [ ] | [ ] |
+| Powerwear         | [ ] | [ ] | [ ] |
+| KTM Tech          | [ ] | [ ] | [ ] |
+| KTM News          | [ ] | [ ] | [ ] |
+| Read more         | [ ] | [ ] | [ ] |
+| Newsletter        | [ ] | [ ] | [ ] |
+| Footer            | [ ] | [ ] | [ ] |
+
 ## Inlämningsuppgift 1 - Återskapa en hemsida
 
 I den här uppgiften skall du återskapa en hemsidas struktur, design och responsivitet! Här är interaktivitet inte viktigt utan du skall istället lägga allt krut på det visuella med fokus på responsivitet.<br>
