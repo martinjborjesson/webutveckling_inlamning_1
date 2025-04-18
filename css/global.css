@@ -14,7 +14,6 @@ body {
 
 .ktm-text {
   font-family: "BlenderPro-Bold";
-  text-decoration: none;
 }
 
 .flex {
@@ -30,6 +29,19 @@ body {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.orange {
+  color: var(--color-primary);
 }
 
 /* .font-test {
