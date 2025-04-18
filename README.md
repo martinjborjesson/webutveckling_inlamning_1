@@ -19,7 +19,7 @@
 | KTM News          | [ ] | [ ] | [ ] |
 | Read more         | [ ] | [ ] | [ ] |
 | Newsletter        | [ ] | [ ] | [ ] |
-| Footer            | [ ] | [ ] | [ ] |
+| Footer            | [ ] | [X] | [ ] |
 
 ## Inlämningsuppgift 1 - Återskapa en hemsida
 
