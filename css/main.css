@@ -6,14 +6,15 @@ main {
   height: 90.2vh;
 }
 
-.main-article-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+.main-article {
+  background-image: url('../media/images/2025-australia-adventure-rallye.jpg');
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .bullet {
