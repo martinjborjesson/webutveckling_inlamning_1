@@ -2,7 +2,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   height: 74px;
-  padding-left: 10px;
 }
 
 header nav a {
@@ -24,21 +23,88 @@ header .icon {
 }
 
 header .brand img {
-  max-width: 75%;
+  max-width: 70%;
   margin-bottom: 2rem;
 }
 
 .navbar {
   display: none;
-  gap: 2rem;
+  gap: 40px;
 }
 
-.header-menu-icon {
-  font-size: 20px;
+.header-menu-icon i {
+  font-size: 22px;
   text-decoration: none;
   padding-left: 6px;
 }
 
 .header-icons {
   display: none;
+  margin-right: 20px;
+}
+
+.header-icons a {
+  margin: 0 10px;
+}
+
+.header-icons i {
+  font-size: 26px;
+  margin-right: 4px;
+}
+
+
+@media (width >=768px) {
+  header {
+    height: 115px;
+  }
+
+  .brand {
+    height: 115px;
+    width: 128px;
+  }
+
+  header .brand img {
+    max-width: 70%;
+    margin-bottom: 52px;
+  }
+
+  .header-icons {
+    display: flex;
+  }
+
+  .header-menu-icon i {
+    font-size: 32px;
+    padding-left: 20px;
+  }
+}
+
+@media (width >=992px) {
+  header {
+    height: 145px;
+  }
+
+  .brand {
+    height: 145px;
+    width: 162px;
+  }
+
+  header .brand img {
+    margin-bottom: 66px;
+  }
+}
+
+@media (width >=1200px) {
+  .header-icons {
+    margin-right: 30px;
+  }
+}
+
+@media (width >=1365px) {
+  .navbar {
+    display: flex;
+  }
+
+  .header-menu-icon {
+    display: none;
+  }
 }
