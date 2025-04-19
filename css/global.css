@@ -2,14 +2,24 @@
   --color-primary: #ff6600;
 }
 
+/* 
+* {
+  outline: 1px solid red;
+} */
+
 html,
 body {
-  /* background-color: #A0A0A0; */
   margin: 0;
 }
 
 .content-container {
-  padding-left: 10px;
+  padding: 0 0 0 10px;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .ktm-text {
@@ -65,7 +75,24 @@ ul {
 
 /* 62rem */
 /* Black menu bar */
-@media (width >=992px) {}
+@media (width >=992px) {
+  .container {
+    padding: 0 40px;
+  }
+}
 
-/* 80rem */
-@media (width >=1280px) {}
+@media (width >=1150px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media (width >=1200px) {
+  .content-container {
+    padding: 0 10px;
+  }
+
+  .container {
+    max-width: 1580px;
+  }
+}
