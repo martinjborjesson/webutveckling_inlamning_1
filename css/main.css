@@ -2,6 +2,10 @@ main {
   /* asdf */
 }
 
+section {
+  padding-bottom: 78px;
+}
+
 .main-article {
   background-image: url('../media/images/2025-australia-adventure-rallye.jpg');
   background-size: cover;
@@ -48,10 +52,10 @@ main {
 
 .menu-item a i {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 300,
-  'GRAD' 0,
-  'opsz' 48;
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 48;
   font-size: 3rem;
   color: var(--color-primary);
   transition: 0.5s ease;
@@ -61,11 +65,15 @@ main {
   background-color: var(--color-primary);
   color: white;
   border: var(--color-primary) solid 1px;
+  padding: 16px 30px;
+  transition: 0.2s ease-in-out;
 }
 
 .btn-orange a {
   color: inherit;
   text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .btn-orange:hover {
@@ -89,6 +97,57 @@ main {
   color: white;
 }
 
+.container-recently-launched {
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+.card {
+  padding: 13px 13px 57px 13px;
+  flex-direction: column;
+}
+
+.card-title {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 10px 40px
+}
+
+.card .btn-orange {
+  width: 100%;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.model-info {
+  padding-top: 41px;
+}
+
+.card-title h2 {
+  margin: 0 0 7.5px 0;
+}
+
+.card img {
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.card h3 {
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 0 0 10px 0;
+}
+
+.card h4 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+}
+
 @media (width >=992px) {
   .menu {
     flex-direction: row;
@@ -100,7 +159,7 @@ main {
     color: rgb(53, 53, 53);
   }
 
-  .menu-item:hover .icon{
+  .menu-item:hover .icon {
     transition: 0.5s ease;
     color: var(--color-primary)
   }
