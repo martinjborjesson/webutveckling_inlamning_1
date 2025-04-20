@@ -8,11 +8,10 @@
 | Element | progress | Partially complete | Fully complete |
 | :-                | :-: | :-: | :-: |
 | Header            | [ ] | [x] | [ ] |
-| Main article      | [X] | [ ] | [ ] |
+| Main article      | [ ] | [X] | [ ] |
 | Page bullets      | [ ] | [ ] | [X] |
 | Black menu        | [ ] | [X] | [ ] |
-| Recently launched | [ ] | [ ] | [ ] |
-| Discover more     | [ ] | [ ] | [ ] |
+| Discover more     | [ ] | [X] | [ ] |
 | X-BOW             | [ ] | [ ] | [ ] |
 | Powerwear         | [ ] | [ ] | [ ] |
 | KTM Tech          | [ ] | [ ] | [ ] |
