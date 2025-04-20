@@ -7,7 +7,7 @@
 
 | Element | progress | Partially complete | Fully complete |
 | :-                | :-: | :-: | :-: |
-| Header            | [X] | [ ] | [ ] |
+| Header            | [ ] | [x] | [ ] |
 | Main article      | [X] | [ ] | [ ] |
 | Page bullets      | [ ] | [ ] | [X] |
 | Black menu        | [ ] | [X] | [ ] |
@@ -19,6 +19,7 @@
 | KTM News          | [ ] | [ ] | [ ] |
 | Read more         | [ ] | [ ] | [ ] |
 | Newsletter        | [ ] | [ ] | [ ] |
+| Disclaimer        | [ ] | [x] | [ ] |
 | Footer            | [ ] | [X] | [ ] |
 
 ## Inlämningsuppgift 1 - Återskapa en hemsida

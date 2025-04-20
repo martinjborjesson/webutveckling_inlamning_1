@@ -150,6 +150,8 @@ section {
 
 @media (width >=992px) {
   .menu {
+    padding-top: 30px;
+    padding-bottom: 30px;
     flex-direction: row;
     justify-content: center;
   }
