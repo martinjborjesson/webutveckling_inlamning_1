@@ -109,7 +109,7 @@ section {
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.recently-launched-card-title {
+.section-title {
   width: 100%;
   text-align: center;
   font-size: 20px;
@@ -126,7 +126,7 @@ section {
   padding-top: 41px;
 }
 
-.recently-launched-card-title h2 {
+.section-title h2 {
   margin: 0 0 7.5px 0;
 }
 
@@ -151,11 +151,11 @@ section {
 }
 
 @media (width >=768px) {
-  .recently-launched-card-title {
+  .section-title {
     margin-bottom: 60px;
   }
 
-  .recently-launched-card-title h2 {
+  .section-title h2 {
     font-size: 70px;
     margin-bottom: 17.5px;
   }
