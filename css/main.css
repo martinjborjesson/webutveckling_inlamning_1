@@ -103,20 +103,20 @@ section {
   gap: 50px;
 }
 
-.card {
+.recently-launched-card {
   padding: 13px 13px 57px 13px;
   flex-direction: column;
   transition: box-shadow 0.3s ease-in-out;
 }
 
-.card-title {
+.recently-launched-card-title {
   width: 100%;
   text-align: center;
   font-size: 20px;
   margin: 0 0 40px;
 }
 
-.card .btn-orange {
+.recently-launched-card .btn-orange {
   width: 100%;
   justify-content: center;
   margin-top: 16px;
@@ -126,16 +126,16 @@ section {
   padding-top: 41px;
 }
 
-.card-title h2 {
+.recently-launched-card-title h2 {
   margin: 0 0 7.5px 0;
 }
 
-.card img {
+.recently-launched-card img {
   width: 100%;
   margin: 0 0 10px 0;
 }
 
-.card h3 {
+.recently-launched-card h3 {
   color: black;
   text-align: center;
   font-size: 22px;
@@ -143,7 +143,7 @@ section {
   margin: 0 0 10px 0;
 }
 
-.card h4 {
+.recently-launched-card h4 {
   text-align: center;
   font-size: 18px;
   line-height: 24px;
@@ -151,11 +151,11 @@ section {
 }
 
 @media (width >=768px) {
-  .card-title {
+  .recently-launched-card-title {
     margin-bottom: 60px;
   }
 
-  .card-title h2 {
+  .recently-launched-card-title h2 {
     font-size: 70px;
     margin-bottom: 17.5px;
   }
@@ -187,15 +187,15 @@ section {
     gap: 118px;
   }
 
-  .card {
+  .recently-launched-card {
     flex: 1;
   }
 
-  .card .model-info {
+  .recently-launched-card .model-info {
     flex-grow: 1;
   }
 
-  .card:hover {
+  .recently-launched-card:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   }
 
