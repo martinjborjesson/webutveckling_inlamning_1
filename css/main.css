@@ -100,11 +100,13 @@ section {
 .container-recently-launched {
   padding: 0 20px;
   flex-direction: column;
+  gap: 50px;
 }
 
 .card {
   padding: 13px 13px 57px 13px;
   flex-direction: column;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .card-title {
@@ -148,6 +150,17 @@ section {
   margin: 0;
 }
 
+@media (width >=768px) {
+  .card-title {
+    margin-bottom: 60px;
+  }
+
+  .card-title h2 {
+    font-size: 70px;
+    margin-bottom: 17.5px;
+  }
+}
+
 @media (width >=992px) {
   .menu {
     padding-top: 30px;
@@ -169,8 +182,21 @@ section {
   .container-recently-launched {
     flex-direction: row;
     margin: 0 10px 60px;
-    padding-bottom: 78px;
+    padding: 0 0 78px;
+    align-items: stretch;
+    gap: 118px;
+  }
 
+  .card {
+    flex: 1;
+  }
+
+  .card .model-info {
+    flex-grow: 1;
+  }
+
+  .card:hover {
+    box-shadow: 0 12px 12px #000000FF;
   }
 
   .content {
