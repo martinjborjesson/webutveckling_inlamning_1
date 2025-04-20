@@ -163,4 +163,15 @@ section {
     transition: 0.5s ease;
     color: var(--color-primary)
   }
+
+  .container-recently-launched {
+    flex-direction: row;
+    margin: 0 10px 60px;
+    padding-bottom: 78px;
+
+  }
+
+  .content {
+    padding: 0 30px;
+  }
 }
