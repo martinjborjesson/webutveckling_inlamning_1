@@ -65,7 +65,7 @@ main {
   background-color: var(--color-primary);
   color: white;
   border: var(--color-primary) solid 1px;
-  padding: 16px 30px;
+  padding: 14px 30px;
   transition: 0.2s ease-in-out;
   width: fit-content;
 }
@@ -176,6 +176,39 @@ main {
 }
 
 .discover-more-card .heading {
+  margin: 0 0 5px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.large-card {
+  flex-direction: column;
+  margin: 0 10px 40px;
+  justify-content: center;
+}
+
+.large-card-content {
+  width: 100%;
+  flex-direction: column;
+}
+
+.large-card-text {
+  width: 100%;
+}
+
+/* Duplicates, remove if not needed later.
+ * If so, then rename and apply corresponding classes in .discover-more-card
+ */
+.large-card .subheading {
+  width: 100%;
+  margin: 30px 0 4.5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.large-card .heading {
   margin: 0 0 5px;
   font-size: 30px;
   line-height: 30px;
