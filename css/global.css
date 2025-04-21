@@ -59,6 +59,10 @@ img {
   color: var(--color-primary);
 }
 
+.margin-top-15 {
+  margin-top: 15px;
+}
+
 /* .font-test {
   font-family: "BlenderPro-Bold";
   font-size: 100px;
