@@ -7,10 +7,10 @@
 
 | Element | progress | Partially complete | Fully complete |
 | :-                | :-: | :-: | :-: |
-| Header            | [ ] | [x] | [ ] |
+| Header            | [ ] | [X] | [ ] |
 | Main article      | [ ] | [X] | [ ] |
 | Page bullets      | [ ] | [ ] | [X] |
-| Black menu        | [ ] | [X] | [ ] |
+| Black menu        | [ ] | [ ] | [X] |
 | Discover more     | [ ] | [X] | [ ] |
 | X-BOW             | [ ] | [ ] | [ ] |
 | Powerwear         | [ ] | [ ] | [ ] |
@@ -18,7 +18,7 @@
 | KTM News          | [ ] | [ ] | [ ] |
 | Read more         | [ ] | [ ] | [ ] |
 | Newsletter        | [ ] | [ ] | [ ] |
-| Disclaimer        | [ ] | [x] | [ ] |
+| Disclaimer        | [ ] | [X] | [ ] |
 | Footer            | [ ] | [X] | [ ] |
 
 ## Inlämningsuppgift 1 - Återskapa en hemsida
@@ -39,10 +39,10 @@ Tänk på att samtliga filer och mappar ska namnges så att det tydligt framgår
 
 1. [X] Din projektmapp innehåller minst en HTML fil och en CSS fil samt en README.md
 2. [X] I README.md filen ska det tydligt framgå vilken sida du har valt att återskapa och eventuella avgränsningar du har valt att göra och varför, en länk till originalhemsidan - samt ditt namn.
-3. [ ] Git och Github har använts (repot ska vara publikt så jag kommer åt det)
-4. [ ] Minst en skärmdump på orginalhemsidans utseende skall finns i er projektmapp
-5. [ ] Elementen på sidan skall vara såpass responsiva att de stannar kvar i bild
-6. [ ] Färger, storlekar och avstånd skall vara snarlika orignalhemsidans
+3. [x] Git och Github har använts (repot ska vara publikt så jag kommer åt det)
+4. [x] Minst en skärmdump på orginalhemsidans utseende skall finns i er projektmapp
+5. [x] Elementen på sidan skall vara såpass responsiva att de stannar kvar i bild
+6. [x] Färger, storlekar och avstånd skall vara snarlika orignalhemsidans
 7. [ ] Uppgiften skall vara inlämnad i tid! *(projektmappen zippas ihop och lämnas in i läroplattformen som grupp)*
 
 ### Krav för väl godkänt:
@@ -51,7 +51,7 @@ Tänk på att samtliga filer och mappar ska namnges så att det tydligt framgår
 2. [ ] Elementen på sidan skall vara fullt responsiva - alltså matcha orginalhemsidans responsivitet.
 3. [ ] Det ska finnas flera skärmdumpar på orginalhemsidans utseende för olika skärmstorlekar - minst en för mobil, en för tablet, och en för desktop.
 4. [ ] Färger, storlekar och avstånd skall matcha orignalhemsidans.
-5. [ ] Ett ikonset (css fil från FontAwesome eller MaterialUI) ska laddas in i head taggen, ikoner från filen skall sedan användas på minst ett ställe i html-koden.
+5. [x] Ett ikonset (css fil från FontAwesome eller MaterialUI) ska laddas in i head taggen, ikoner från filen skall sedan användas på minst ett ställe i html-koden.
 6. [ ] Koden skall vara logiskt strukturerad med tydliga kommentarer för dess uppbyggnad.
 
 ### Mini-ordlista:
