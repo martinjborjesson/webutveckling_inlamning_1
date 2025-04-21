@@ -238,6 +238,10 @@ main {
   text-align: center;
 }
 
+.news-articles {
+  margin: 0 10px;
+}
+
 .read-more {
   justify-content: center;
   margin: 0 10px 40px;
