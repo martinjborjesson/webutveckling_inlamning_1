@@ -41,6 +41,11 @@ main {
   background-color: black;
   border-top: solid 2px;
   border-color: var(--color-primary);
+  margin-bottom: 40px;
+  row-gap: 30px;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  padding-left: 40px;
 }
 
 .menu-item a {
@@ -48,6 +53,11 @@ main {
   align-items: center;
   gap: 1rem;
   color: white;
+  font-size: 22px;
+}
+
+.menu-item a h6 {
+  margin: 0;
 }
 
 .menu-item a i {
@@ -276,6 +286,10 @@ main {
   text-align: center;
 }
 
+
+/*
+  TABLET BREAKPOINT
+*/
 @media (width >=768px) {
   .content {
     padding: 0 20px;
@@ -289,8 +303,15 @@ main {
     font-size: 70px;
     margin-bottom: 17.5px;
   }
+
+  .menu {
+    margin-bottom: 60px;
+  }
 }
 
+/*
+  DESKTOP BREAKPOINT
+*/
 @media (width >=992px) {
   .content {
     padding: 0 30px;
@@ -301,6 +322,9 @@ main {
     padding-bottom: 30px;
     flex-direction: row;
     justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
+    padding-left: 0;
   }
 
   .menu a i {
