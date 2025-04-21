@@ -209,6 +209,35 @@ main {
   width: 100%;
 }
 
+.power-card {
+  flex-direction: column;
+  margin: 0 10px 40px;
+}
+
+.power-text {
+  justify-content: center;
+  align-items: end;
+  height: 69.5px;
+}
+
+/* Duplicates, remove if not needed later.
+ * If so, then rename and apply corresponding classes in .discover-more-card
+ */
+.power-card .subheading {
+  width: 100%;
+  margin: 30px 0 4.5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.power-card .heading {
+  margin: 0 0 5px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
 .read-more {
   justify-content: center;
   margin: 0 10px 40px;
