@@ -67,6 +67,7 @@ main {
   border: var(--color-primary) solid 1px;
   padding: 16px 30px;
   transition: 0.2s ease-in-out;
+  width: fit-content;
 }
 
 .btn-orange a {
@@ -158,8 +159,7 @@ main {
 }
 
 .discover-more-card-image {
-  width: 320px;
-  height: 320px;
+  width: 100%;
   background-image: url("./media/images/discover-more-1-dual-sport-large.jpg");
 }
 
