@@ -2,10 +2,6 @@ main {
   /* asdf */
 }
 
-section {
-  padding-bottom: 78px;
-}
-
 .content {
   padding: 0 10px;
 }
@@ -102,7 +98,8 @@ section {
 }
 
 .container-recently-launched {
-  padding: 0 10px;
+  margin: 0 0 40px;
+  padding: 0 10px 78px;
   flex-direction: column;
   gap: 50px;
 }
@@ -117,6 +114,7 @@ section {
   width: 100%;
   text-align: center;
   font-size: 20px;
+  line-height: 31.8px;
   margin: 0 0 40px;
 }
 
@@ -152,6 +150,36 @@ section {
   font-size: 18px;
   line-height: 24px;
   margin: 0;
+}
+
+.discover-more-card {
+  margin: 0 10px 40px;
+  flex-direction: column;
+}
+
+.discover-more-card-image {
+  width: 320px;
+  height: 320px;
+  background-image: url("./media/images/discover-more-1-dual-sport-large.jpg");
+}
+
+.discover-more-card-text {
+  width: 100%;
+}
+
+.discover-more-card .subheading {
+  width: 100%;
+  margin: 30px 0 4.5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.discover-more-card .heading {
+  margin: 0 0 5px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
 }
 
 @media (width >=768px) {
