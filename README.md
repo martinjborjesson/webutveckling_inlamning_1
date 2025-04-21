@@ -12,9 +12,9 @@
 | Page bullets      | [ ] | [ ] | [X] |
 | Black menu        | [ ] | [ ] | [X] |
 | Discover more     | [ ] | [X] | [ ] |
-| X-BOW             | [ ] | [ ] | [ ] |
+| X-BOW             | [ ] | [X] | [ ] |
 | Powerwear         | [ ] | [ ] | [ ] |
-| KTM Tech          | [ ] | [ ] | [ ] |
+| KTM Tech          | [ ] | [X] | [ ] |
 | KTM News          | [ ] | [ ] | [ ] |
 | Read more         | [ ] | [ ] | [ ] |
 | Newsletter        | [ ] | [ ] | [ ] |

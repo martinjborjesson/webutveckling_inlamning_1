@@ -96,16 +96,29 @@ main {
   background-color: #00000000;
   color: var(--color-primary);
   border: var(--color-primary) solid 1px;
+  padding: 14px 30px;
+  gap: 28px;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
 }
 
 .btn-signup a {
   color: inherit;
+  font-size: inherit;
   text-decoration: none;
+}
+
+.btn-signup i {
+  display: none;
 }
 
 .btn-signup:hover {
   background-color: var(--color-primary);
   color: white;
+}
+
+.btn-signup:hover i {
+  display: block;
 }
 
 .container-recently-launched {
@@ -170,7 +183,6 @@ main {
 
 .discover-more-card-image {
   width: 100%;
-  background-image: url("./media/images/discover-more-1-dual-sport-large.jpg");
 }
 
 .discover-more-card-text {
@@ -205,6 +217,51 @@ main {
 
 .large-card-text {
   width: 100%;
+}
+
+.power-card {
+  flex-direction: column;
+  margin: 0 10px 40px;
+}
+
+.power-text {
+  justify-content: center;
+  align-items: end;
+  height: 69.5px;
+}
+
+/* Duplicates, remove if not needed later.
+ * If so, then rename and apply corresponding classes in .discover-more-card
+ */
+.power-card .subheading {
+  width: 100%;
+  margin: 30px 0 4.5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.power-card .heading {
+  margin: 0 0 5px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.read-more {
+  justify-content: center;
+  margin: 0 10px 40px;
+}
+
+.newsletter {
+  flex-direction: column;
+  margin: 0 10px 40px;
+}
+
+.newsletter p {
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 29.25px;
 }
 
 /* Duplicates, remove if not needed later.
