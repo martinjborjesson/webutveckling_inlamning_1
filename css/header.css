@@ -10,6 +10,11 @@ header {
   z-index: 10;
 }
 
+.header-container {
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
 header nav a {
   color: #FFFFFF;
   font-size: 20px;
@@ -41,7 +46,7 @@ header .brand img {
 .header-menu-icon i {
   font-size: 22px;
   text-decoration: none;
-  padding-left: 6px;
+  padding-left: 10px;
 }
 
 .header-icons {
@@ -87,6 +92,11 @@ header .brand img {
 @media (width >=992px) {
   header {
     height: 145px;
+  }
+
+  .header-container {
+    padding: 0 40px;
+    max-width: 1650px;
   }
 
   .brand {
