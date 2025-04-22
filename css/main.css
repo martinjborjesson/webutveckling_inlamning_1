@@ -178,6 +178,10 @@ main {
   margin: 0;
 }
 
+.discover-more-container {
+  flex-direction: column;
+}
+
 .discover-more-card {
   margin: 0 10px 40px;
   flex-direction: column;
