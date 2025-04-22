@@ -4,6 +4,8 @@ main {
 
 .content {
   padding: 0 10px;
+  max-width: 1650px;
+  margin: 0 auto;
 }
 
 .main-article {
