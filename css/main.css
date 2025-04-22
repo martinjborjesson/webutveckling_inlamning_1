@@ -332,6 +332,37 @@ main {
     font-size: 85px;
     line-height: 85px;
   }
+
+  .large-card {
+    position: relative;
+  }
+
+  .large-card-content {
+    position: absolute;
+    padding: 0 80px;
+    align-items: end;
+  }
+
+  .large-card-text {
+    color: white;
+    width: auto;
+  }
+
+  .large-card-text .subheading {
+    text-align: end;
+    margin-top: 0;
+    line-height: 10px;
+  }
+
+  .large-card-text .heading {
+    text-align: end;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .large-card-content .btn-orange {
+    margin-top: 0;
+  }
 }
 
 @media (width >=740px) {
