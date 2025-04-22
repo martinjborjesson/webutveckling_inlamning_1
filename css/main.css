@@ -14,8 +14,36 @@ main {
   background-position: center;
   min-height: 100vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   width: 100%;
+  padding-bottom: 80px;
+}
+
+.main-article-text {
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  padding: 0 40px;
+}
+
+.main-article-text .headline-pre {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 4.5px;
+}
+
+.main-article-text .headline-main {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0 0 10px;
+}
+
+.main-article .btn-orange {
+  margin: 0 0 47px;
+}
+
+.bullets {
+  margin: 0 0;
 }
 
 .bullet {
@@ -108,10 +136,12 @@ main {
   color: inherit;
   font-size: inherit;
   text-decoration: none;
+  line-height: 28px;
 }
 
 .btn-signup i {
   display: none;
+  line-height: 28px;
 }
 
 .btn-signup:hover {
@@ -444,6 +474,38 @@ main {
 
   .large-card-text .heading {
     margin: 5px 0 0;
+  }
+
+  .read-more {
+    margin-bottom: 60px;
+  }
+
+  .read-more .btn-orange {
+    padding: 22px 50px;
+  }
+
+  .read-more .btn-orange a {
+    font-size: 20px;
+  }
+
+  .newsletter {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .newsletter p {
+    font-size: 23.4px;
+    line-height: 44px;
+    margin: 0 19.5px;
+  }
+
+  .newsletter .btn-signup {
+    padding: 22px 50px;
+  }
+
+  .newsletter .btn-signup a {
+    font-size: 20px;
   }
 }
 
