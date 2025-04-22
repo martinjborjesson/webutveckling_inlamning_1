@@ -357,6 +357,25 @@ main {
     margin-bottom: 60px;
     padding-left: 40px;
   }
+
+  .discover-more-card-text {
+    position: unset;
+    bottom: unset;
+    left: unset;
+    z-index: unset;
+    height: auto;
+    color: black;
+  }
+
+  .discover-more-card .subheading {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .discover-more-card .heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
 }
 
 /*
