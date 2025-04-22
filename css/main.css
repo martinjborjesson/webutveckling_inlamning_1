@@ -224,6 +224,24 @@ main {
   width: 100%;
 }
 
+/* Duplicates, remove if not needed later.
+ * If so, then rename and apply corresponding classes in .discover-more-card
+ */
+.large-card .subheading {
+  width: 100%;
+  margin: 30px 0 4.5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.large-card .heading {
+  margin: 0 0 5px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
 .power-card {
   flex-direction: column;
   margin: 0 10px 40px;
@@ -271,24 +289,6 @@ main {
   margin: 0;
   font-size: 1.125em;
   line-height: 29.25px;
-}
-
-/* Duplicates, remove if not needed later.
- * If so, then rename and apply corresponding classes in .discover-more-card
- */
-.large-card .subheading {
-  width: 100%;
-  margin: 30px 0 4.5px;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-}
-
-.large-card .heading {
-  margin: 0 0 5px;
-  font-size: 30px;
-  line-height: 30px;
-  text-align: center;
 }
 
 @media (width >=440px) {
