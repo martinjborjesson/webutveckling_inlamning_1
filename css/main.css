@@ -330,6 +330,12 @@ main {
   }
 }
 
+@media (width >=740px) {
+  .discover-more-card-image {
+    aspect-ratio: 7 / 4;
+  }
+}
+
 /*
   TABLET BREAKPOINT
 */
