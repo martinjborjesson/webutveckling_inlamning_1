@@ -429,4 +429,20 @@ main {
   .recently-launched-card:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   }
+
+  .discover-more-container {
+    flex-direction: row;
+  }
+
+  .discover-more-card {
+    margin: 0 10px 60px;
+  }
+
+  .discover-more-card-image {
+    aspect-ratio: 1/1;
+  }
+
+  .shift-image-20 img {
+    object-position: 20% center;
+  }
 }
