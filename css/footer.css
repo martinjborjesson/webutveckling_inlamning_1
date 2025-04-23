@@ -25,6 +25,7 @@
 
 .footer nav {
   padding: 68px 48px 37px;
+  flex-direction: column;
 }
 
 .footer-title {
@@ -39,6 +40,7 @@
 
 .footer-column {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .footer-column ul {
@@ -56,11 +58,18 @@
   padding: 25px 5px 0 0;
 }
 
+.footer-column ul li a {
+  color: white;
+  font-size: 16px;
+  line-height: 29.25px;
+}
+
 .footer-icons img {
   height: 18px;
 }
 
 .footer-legal {
+  flex-direction: column;
   border-top: #bdbdbd solid 1px;
   padding: 40px 0;
   text-align: center;
@@ -94,5 +103,98 @@
   .disclaimer p {
     font-size: 13.5px;
     line-height: 25.38px;
+  }
+
+  .footer {
+    padding: 0 30px;
+  }
+
+  .footer-icons ul {
+    justify-content: flex-start;
+    gap: 50px;
+    margin-left: 5px;
+  }
+}
+
+@media (width >=992px) {
+  .footer {
+    padding: 0 40px;
+  }
+
+  .footer nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 88px 0 0;
+    gap: 2.5px;
+  }
+
+  .footer-column {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer-title {
+    font-size: 23.4px;
+    line-height: 23.4px;
+  }
+
+  .footer-column i {
+    display: none;
+  }
+
+  .footer-column ul {
+    display: block;
+    margin: 0 0 18px;
+    padding: 18px 0 0;
+  }
+
+  .footer-column ul li {
+    padding: 2.5px 0;
+    font-family: "Libre Franklin";
+    text-wrap: nowrap;
+  }
+
+  .footer-column ul li a:hover {
+    color: var(--color-primary);
+  }
+
+  .footer-legal {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    font-size: 13.5px;
+    line-height: 22px;
+  }
+
+  .back-to-top {
+    padding: 0;
+  }
+
+  .footer-icons ul {
+    gap: 28px;
+    margin: 0;
+  }
+
+  .footer-icons ul li a {
+    line-height: 25px;
+  }
+
+  .footer-icons ul li a img {
+    height: 25px;
+  }
+
+  .fb {
+    width: 25px;
+  }
+
+  .ig {
+    width: 25px;
+  }
+
+  .yt {
+    width: 36px;
   }
 }
