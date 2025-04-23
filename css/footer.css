@@ -197,4 +197,16 @@
   .yt {
     width: 36px;
   }
+
+  @media(width >=1650px) {
+    .footer nav {
+      margin: 0 auto;
+      max-width: 1580px;
+    }
+
+    .footer-legal {
+      margin: 0 auto;
+      max-width: 1580px;
+    }
+  }
 }
