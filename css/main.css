@@ -278,6 +278,10 @@ main {
   text-align: center;
 }
 
+.power-cards-container {
+  flex-direction: column;
+}
+
 .power-card {
   flex-direction: column;
   margin: 0 10px 40px;
@@ -401,9 +405,8 @@ main {
   }
 
   .power-text {
+    padding: 0 40px;
     position: absolute;
-    bottom: 0;
-    left: 0;
     z-index: 1;
     height: 100%;
     color: white;
@@ -498,6 +501,10 @@ main {
   .large-card-text .heading {
     margin: 5px 0 0;
   }
+  
+  .power-cards-container {
+    flex-direction: row;
+  }
 
   .read-more {
     margin-bottom: 60px;
@@ -529,6 +536,15 @@ main {
 
   .newsletter .btn-signup a {
     font-size: 20px;
+  }
+
+  .power-text {
+    padding: 0 40px;
+  }
+
+  .power-text .heading {
+    font-size: 50px;
+    line-height: 50px;
   }
 }
 
@@ -598,5 +614,14 @@ main {
 
   .large-card-text .subheading {
     margin: 0 0 6px;
+  }
+
+  .power-text {
+    padding: 0 60px;
+  }
+
+  .power-text .heading {
+    font-size: 70px;
+    line-height: 70px;
   }
 }
