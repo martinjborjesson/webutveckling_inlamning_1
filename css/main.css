@@ -278,10 +278,6 @@ main {
   text-align: center;
 }
 
-.power-card-container {
-  flex-direction: column;
-}
-
 .power-card {
   flex-direction: column;
   margin: 0 10px 40px;
@@ -289,7 +285,7 @@ main {
 
 .power-text {
   justify-content: center;
-  align-items: end;
+  align-items: center;
   height: 69.5px;
 }
 
@@ -398,6 +394,29 @@ main {
 
   .large-card-content .btn-orange {
     margin-top: 0;
+  }
+
+  .power-card {
+    position: relative;
+  }
+
+  .power-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    color: white;
+  }
+
+  .power-card .subheading {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .power-card .heading {
+    font-size: 85px;
+    line-height: 85px;
   }
 }
 
