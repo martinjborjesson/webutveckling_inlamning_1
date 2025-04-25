@@ -37,6 +37,24 @@
   margin: 0 10px 40px;
 }
 
+.text-line-limit-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-line-limit-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 @media (width >=768px) {
   .read-more {
     margin-bottom: 60px;
