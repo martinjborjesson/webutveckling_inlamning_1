@@ -130,17 +130,6 @@
   margin: 0 0 7.5px 0;
 }
 
-.newsletter {
-  flex-direction: column;
-  margin: 0 10px 40px;
-}
-
-.newsletter p {
-  margin: 0;
-  font-size: 1.125em;
-  line-height: 29.25px;
-}
-
 @media (width >=768px) {
   .content {
     padding: 0 20px;
@@ -177,26 +166,6 @@
   .section-title h2 {
     font-size: 70px;
     margin-bottom: 17.5px;
-  }
-
-  .newsletter {
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 60px;
-  }
-
-  .newsletter p {
-    font-size: 23.4px;
-    line-height: 44px;
-    margin: 0 19.5px;
-  }
-
-  .newsletter .btn-signup {
-    padding: 22px 50px;
-  }
-
-  .newsletter .btn-signup a {
-    font-size: 20px;
   }
 }
 
