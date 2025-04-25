@@ -18,7 +18,7 @@
   line-height: 21.2px;
   color: black;
   text-decoration: none;
-  transition: 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 .news-article-container a h2:hover {
@@ -49,6 +49,24 @@
   .read-more .btn-orange a {
     font-size: 20px;
   }
+  
+  .news-article-container time {
+    font-size: 15.75px;
+    line-height: 29.61px;
+    margin-top: 22.05px;
+    margin-bottom: 7.875px;
+  }
+
+  .news-article-container a h2 {
+    font-size: 22.5px;
+    line-height: 22.5px;
+    margin-bottom: 25.3125px;
+  }
+
+  .news-article-container p {
+    font-size: 18px;
+    line-height: 33.84px;
+  }
 }
 
 @media (width >=992px) {
@@ -63,6 +81,14 @@
     flex: 1;
   }
 
+  
+  .news-article-container time {
+    font-size: 18px;
+    line-height: 33.84px;
+    margin-top: 18px;
+    margin-bottom: 9px;
+  }
+  
   .news-article-container a h2 {
     font-size: 36px;
     line-height: 36px;
