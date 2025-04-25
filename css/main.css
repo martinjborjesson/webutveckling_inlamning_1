@@ -65,42 +65,6 @@
   background-color: var(--color-primary);
 }
 
-.menu {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  border-top: solid 2px;
-  border-color: var(--color-primary);
-  margin-bottom: 40px;
-  row-gap: 28px;
-  padding-top: 42px;
-  padding-bottom: 42px;
-  padding-left: 30px;
-}
-
-.menu-item a {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: white;
-  font-size: 22px;
-}
-
-.menu-item a h6 {
-  margin: 0;
-}
-
-.menu-item a i {
-  font-variation-settings:
-    'FILL' 0,
-    'wght' 300,
-    'GRAD' 0,
-    'opsz' 42;
-  font-size: 42px;
-  color: var(--color-primary);
-  transition: 0.5s ease;
-}
-
 .btn-orange {
   background-color: var(--color-primary);
   color: white;
@@ -481,11 +445,6 @@
     margin-bottom: 17.5px;
   }
 
-  .menu {
-    margin-bottom: 60px;
-    padding-left: 40px;
-  }
-
   .discover-more-card-text {
     position: unset;
     bottom: unset;
@@ -593,26 +552,6 @@
 
   .main-article-content .btn-orange {
     margin-bottom: 0;
-  }
-
-  .menu {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    margin-bottom: 80px;
-    padding-left: 0;
-  }
-
-  .menu a i {
-    transition: 0.5s ease;
-    color: rgb(53, 53, 53);
-  }
-
-  .menu-item:hover .icon {
-    transition: 0.5s ease;
-    color: var(--color-primary)
   }
 
   .discover-more-container {
