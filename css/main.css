@@ -311,6 +311,10 @@ main {
   text-align: center;
 }
 
+.line-break {
+  display: inline;
+}
+
 .news-articles {
   margin: 0 10px;
 }
@@ -421,6 +425,10 @@ main {
     font-size: 85px;
     line-height: 85px;
   }
+
+  .line-break {
+    display: block;
+  }
 }
 
 @media (width >=740px) {
@@ -501,7 +509,7 @@ main {
   .large-card-text .heading {
     margin: 5px 0 0;
   }
-  
+
   .power-cards-container {
     flex-direction: row;
   }
