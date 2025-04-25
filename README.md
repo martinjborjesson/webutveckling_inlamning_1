@@ -1,7 +1,8 @@
 # SUVNET24 - Webbutveckling
 
 >**Daniel Johansson**<br>
->**Martin Börjesson**
+>**Martin Börjesson**<br>
+>*Det har parkodats en hel del*
 >
 >**Originalhemsida**: <a href="https://www.ktm.com/en-se.html">KTM Sverige (startsidan)</a>
 
@@ -15,7 +16,7 @@
 | X-BOW             | [ ] | [ ] | [X] |
 | Powerwear         | [ ] | [ ] | [X] |
 | KTM Tech          | [ ] | [ ] | [X] |
-| KTM News          | [ ] | [X] | [ ] |
+| KTM News          | [ ] | [ ] | [X] |
 | Read more         | [ ] | [ ] | [X] |
 | Newsletter        | [ ] | [ ] | [X] |
 | Disclaimer        | [ ] | [ ] | [X] |
@@ -43,16 +44,16 @@ Tänk på att samtliga filer och mappar ska namnges så att det tydligt framgår
 4. [X] Minst en skärmdump på orginalhemsidans utseende skall finns i er projektmapp
 5. [X] Elementen på sidan skall vara såpass responsiva att de stannar kvar i bild
 6. [X] Färger, storlekar och avstånd skall vara snarlika orignalhemsidans
-7. [ ] Uppgiften skall vara inlämnad i tid! *(projektmappen zippas ihop och lämnas in i läroplattformen som grupp)*
+7. [X] Uppgiften skall vara inlämnad i tid! *(projektmappen zippas ihop och lämnas in i läroplattformen som grupp)*
 
 ### Krav för väl godkänt:
 
-1. [ ] Kraven för godkänt är uppfyllda.
+1. [X] Kraven för godkänt är uppfyllda.
 2. [X] Elementen på sidan skall vara fullt responsiva - alltså matcha orginalhemsidans responsivitet.
-3. [ ] Det ska finnas flera skärmdumpar på orginalhemsidans utseende för olika skärmstorlekar - minst en för mobil, en för tablet, och en för desktop.
-4. [ ] Färger, storlekar och avstånd skall matcha orignalhemsidans.
+3. [X] Det ska finnas flera skärmdumpar på orginalhemsidans utseende för olika skärmstorlekar - minst en för mobil, en för tablet, och en för desktop.
+4. [X] Färger, storlekar och avstånd skall matcha orignalhemsidans.
 5. [X] Ett ikonset (css fil från FontAwesome eller MaterialUI) ska laddas in i head taggen, ikoner från filen skall sedan användas på minst ett ställe i html-koden.
-6. [ ] Koden skall vara logiskt strukturerad med tydliga kommentarer för dess uppbyggnad.
+6. [X] Koden skall vara logiskt strukturerad med tydliga kommentarer för dess uppbyggnad.
 
 ### Mini-ordlista:
 
