@@ -37,6 +37,10 @@
   margin: 0;
 }
 
+.model-info {
+  padding-top: 41px;
+}
+
 @media (width >=992px) {
   .container-recently-launched {
     flex-direction: row;
