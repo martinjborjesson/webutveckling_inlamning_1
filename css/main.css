@@ -278,6 +278,10 @@ main {
   text-align: center;
 }
 
+.power-card-container {
+  flex-direction: column;
+}
+
 .power-card {
   flex-direction: column;
   margin: 0 10px 40px;
