@@ -316,6 +316,7 @@ main {
 }
 
 .news-articles {
+  flex-direction: column;
   margin: 0 10px;
 }
 
@@ -631,5 +632,10 @@ main {
   .power-text .heading {
     font-size: 70px;
     line-height: 70px;
+  }
+
+  .news-articles {
+    column-gap: 54px;
+    flex-direction: row;
   }
 }
