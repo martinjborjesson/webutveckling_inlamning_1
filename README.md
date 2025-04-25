@@ -5,21 +5,21 @@
 >
 >**Originalhemsida**: <a href="https://www.ktm.com/en-se.html">KTM Sverige (startsidan)</a>
 
-| Element | progress | Partially complete | Fully complete |
+| Element | In progress | Partially complete | Fully complete |
 | :-                | :-: | :-: | :-: |
 | Header            | [ ] | [ ] | [X] |
 | Main article      | [ ] | [X] | [ ] |
 | Page bullets      | [ ] | [ ] | [X] |
 | Black menu        | [ ] | [ ] | [X] |
-| Discover more     | [ ] | [X] | [ ] |
-| X-BOW             | [ ] | [X] | [ ] |
-| Powerwear         | [ ] | [ ] | [ ] |
-| KTM Tech          | [ ] | [X] | [ ] |
-| KTM News          | [ ] | [ ] | [ ] |
-| Read more         | [ ] | [ ] | [ ] |
-| Newsletter        | [ ] | [ ] | [ ] |
-| Disclaimer        | [ ] | [X] | [ ] |
-| Footer            | [ ] | [X] | [ ] |
+| Discover more     | [ ] | [ ] | [X] |
+| X-BOW             | [ ] | [ ] | [X] |
+| Powerwear         | [ ] | [ ] | [X] |
+| KTM Tech          | [ ] | [ ] | [X] |
+| KTM News          | [X] | [ ] | [ ] |
+| Read more         | [ ] | [ ] | [X] |
+| Newsletter        | [ ] | [ ] | [X] |
+| Disclaimer        | [ ] | [ ] | [X] |
+| Footer            | [ ] | [ ] | [X] |
 
 ## Inlämningsuppgift 1 - Återskapa en hemsida
 
