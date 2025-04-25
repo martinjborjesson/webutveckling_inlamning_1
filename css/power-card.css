@@ -1,0 +1,87 @@
+.power-cards-container {
+  flex-direction: column;
+}
+
+.power-card {
+  flex-direction: column;
+  margin: 0 10px 40px;
+}
+
+.power-text {
+  justify-content: center;
+  align-items: center;
+  height: 69.5px;
+}
+
+.power-card .subheading {
+  width: 100%;
+  margin: 30px 0 4.5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.power-card .heading {
+  margin: 0 0 5px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.line-break {
+  display: inline;
+}
+
+@media (width >=577px) {
+  .power-card {
+    position: relative;
+  }
+
+  .power-text {
+    padding: 0 40px;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    color: white;
+  }
+
+  .power-card .subheading {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .power-card .heading {
+    font-size: 85px;
+    line-height: 85px;
+  }
+
+  .line-break {
+    display: block;
+  }
+}
+
+@media (width >=768px) {
+  .power-cards-container {
+    flex-direction: row;
+  }
+
+  .power-text {
+    padding: 0 40px;
+  }
+
+  .power-text .heading {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (width >=992px) {
+  .power-text {
+    padding: 0 60px;
+  }
+
+  .power-text .heading {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
