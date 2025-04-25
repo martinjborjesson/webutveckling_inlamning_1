@@ -15,6 +15,10 @@
   padding-bottom: 80px;
 }
 
+.main-article-content {
+  flex-direction: column;
+}
+
 .main-article-text {
   flex-direction: column;
   text-align: center;
@@ -104,6 +108,7 @@
   padding: 14px 30px;
   transition: 0.2s ease-in-out;
   width: fit-content;
+  cursor: pointer;
 }
 
 .btn-orange a {
@@ -451,6 +456,30 @@
     padding: 0 20px;
   }
 
+  .main-article {
+    padding-bottom: 40px;
+  }
+
+  .main-article-text .headline-pre {
+    font-size: 23.5px;
+    line-height: 23.5px;
+  }
+
+  .main-article-text .headline-main {
+    font-size: 85px;
+    line-height: 85px;
+    margin: 0 0 21.25px;
+  }
+
+  .main-article .btn-orange {
+    padding: 22px 50px;
+    margin: 0 0 87px;
+  }
+
+  .main-article .btn-orange a {
+    font-size: 20px;
+  }
+
   .section-title {
     margin-bottom: 60px;
   }
@@ -559,6 +588,19 @@
 @media (width >=992px) {
   .content {
     padding: 0 30px;
+  }
+
+  .main-article {
+    justify-content: center;
+  }
+
+  .main-article-content {
+    flex: 1;
+    justify-content: center;
+  }
+
+  .main-article-content .btn-orange {
+    margin-bottom: 0;
   }
 
   .menu {
