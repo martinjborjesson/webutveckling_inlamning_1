@@ -130,41 +130,6 @@
   margin: 0 0 7.5px 0;
 }
 
-.large-card {
-  flex-direction: column;
-  margin: 0 10px 40px;
-  justify-content: center;
-}
-
-.large-card-content {
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.large-card-text {
-  width: 100%;
-}
-
-/* Duplicates, remove if not needed later.
- * If so, then rename and apply corresponding classes in .discover-more-card
- */
-.large-card .subheading {
-  width: 100%;
-  margin: 30px 0 4.5px;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-}
-
-.large-card .heading {
-  margin: 0 0 5px;
-  font-size: 30px;
-  line-height: 30px;
-  text-align: center;
-}
-
 .power-cards-container {
   flex-direction: column;
 }
@@ -256,37 +221,6 @@
 
 
 @media (width >=577px) {
-  .large-card {
-    position: relative;
-  }
-
-  .large-card-content {
-    position: absolute;
-    padding: 0 80px;
-    align-items: end;
-  }
-
-  .large-card-text {
-    color: white;
-    width: auto;
-  }
-
-  .large-card-text .subheading {
-    text-align: end;
-    margin-top: 0;
-    line-height: 10px;
-  }
-
-  .large-card-text .heading {
-    text-align: end;
-    font-size: 60px;
-    line-height: 60px;
-  }
-
-  .large-card-content .btn-orange {
-    margin-top: 0;
-  }
-
   .power-card {
     position: relative;
   }
@@ -311,17 +245,6 @@
 
   .line-break {
     display: block;
-  }
-}
-
-@media (width >=740px) {
-  .large-card-text .subheading {
-    font-size: 24px;
-  }
-
-  .large-card-text .heading {
-    font-size: 85px;
-    line-height: 85px;
   }
 }
 
@@ -364,31 +287,6 @@
   .section-title h2 {
     font-size: 70px;
     margin-bottom: 17.5px;
-  }
-
-
-
-  .large-card-content {
-    padding: 0 90px;
-  }
-
-  .large-card-content .btn-orange {
-    padding: 22px 50px;
-    margin: 15px 0 0;
-  }
-
-  .large-card-content .btn-orange a {
-    font-size: 20px;
-    line-height: 28px;
-  }
-
-  .large-card-text .subheading {
-    line-height: 25px;
-    margin: 30px 0 6px;
-  }
-
-  .large-card-text .heading {
-    margin: 5px 0 0;
   }
 
   .power-cards-container {
@@ -456,14 +354,6 @@
 
   .main-article-content .btn-orange {
     margin-bottom: 0;
-  }
-
-  .large-card-text .subheading {
-    margin: 0 0 6px;
-  }
-
-  .large-card-image {
-    width: 100%;
   }
 
   .power-text {
