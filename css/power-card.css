@@ -58,6 +58,23 @@
   .line-break {
     display: block;
   }
+
+  .power-card img {
+    filter: brightness(85%);
+    transition: 0.3s ease;
+  }
+
+  .power-card:hover img {
+    filter: brightness(100%);
+  }
+
+  .power-card .power-text:hover {
+    transition: opacity 0.3s ease;
+  }
+
+  .power-card:hover .power-text {
+    opacity: 0;
+  }
 }
 
 @media (width >=768px) {
@@ -83,5 +100,12 @@
   .power-text .heading {
     font-size: 70px;
     line-height: 70px;
+  }
+}
+
+@media (width >=1200px) {
+  .power-text .heading {
+    font-size: 85px;
+    line-height: 85px;
   }
 }
