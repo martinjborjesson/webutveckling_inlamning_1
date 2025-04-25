@@ -319,7 +319,7 @@
 .news-article-container {
   flex-direction: column;
   gap: 72px;
-  margin: 0 10px;
+  margin: 0 10px 60px;
 }
 
 .read-more {
@@ -714,5 +714,16 @@
   .news-article-container {
     gap: 54px;
     flex-direction: row;
+    align-items: stretch;
+    margin-bottom: 80px;
+  }
+
+  .news-article-container article {
+    flex: 1;
+  }
+
+  .news-article-container a h2 {
+    font-size: 36px;
+    line-height: 36px;
   }
 }
