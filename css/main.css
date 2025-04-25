@@ -311,8 +311,9 @@
   display: inline;
 }
 
-.news-articles {
+.news-article-container {
   flex-direction: column;
+  gap: 72px;
   margin: 0 10px;
 }
 
@@ -331,6 +332,40 @@
   font-size: 1.125em;
   line-height: 29.25px;
 }
+
+.news-article-container time {
+  display: block;
+  line-height: 22.75px;
+  font-size: 14px;
+  margin-top: 19.6px;
+  margin-bottom: 7px;
+}
+
+.news-article-container a h2 {
+  margin: 0 0 22.5px;
+  font-size: 20px;
+  line-height:21.2px;
+  color: black;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.news-article-container a h2:hover {
+  color: var(--color-primary);
+}
+
+.news-article-container p {
+  font-family: "Libre Franklin";
+  margin: 0;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+
+
+
+
+/* MEDIA-TAGS BEGINS */
 
 @media (width >=440px) {
   .discover-more-card-image {
@@ -634,8 +669,8 @@
     line-height: 70px;
   }
 
-  .news-articles {
-    column-gap: 54px;
+  .news-article-container {
+    gap: 54px;
     flex-direction: row;
   }
 }
