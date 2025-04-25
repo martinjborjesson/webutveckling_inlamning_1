@@ -32,7 +32,24 @@
   font-size: 16px;
 }
 
-@media (width >=768px) {}
+.read-more {
+  justify-content: center;
+  margin: 0 10px 40px;
+}
+
+@media (width >=768px) {
+  .read-more {
+    margin-bottom: 60px;
+  }
+
+  .read-more .btn-orange {
+    padding: 22px 50px;
+  }
+
+  .read-more .btn-orange a {
+    font-size: 20px;
+  }
+}
 
 @media (width >=992px) {
   .news-article-container {

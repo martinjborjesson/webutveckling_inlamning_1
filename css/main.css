@@ -130,11 +130,6 @@
   margin: 0 0 7.5px 0;
 }
 
-.read-more {
-  justify-content: center;
-  margin: 0 10px 40px;
-}
-
 .newsletter {
   flex-direction: column;
   margin: 0 10px 40px;
@@ -182,18 +177,6 @@
   .section-title h2 {
     font-size: 70px;
     margin-bottom: 17.5px;
-  }
-
-  .read-more {
-    margin-bottom: 60px;
-  }
-
-  .read-more .btn-orange {
-    padding: 22px 50px;
-  }
-
-  .read-more .btn-orange a {
-    font-size: 20px;
   }
 
   .newsletter {
