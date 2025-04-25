@@ -1,7 +1,3 @@
-main {
-  /* asdf */
-}
-
 .content {
   padding: 0 10px;
   max-width: 1650px;
@@ -623,6 +619,10 @@ main {
 
   .large-card-text .subheading {
     margin: 0 0 6px;
+  }
+
+  .large-card-image {
+    width: 100%;
   }
 
   .power-text {

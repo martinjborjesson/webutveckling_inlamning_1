@@ -48,6 +48,10 @@
   color: inherit;
 }
 
+.footer-icons {
+  width: 100%;
+}
+
 .footer-icons ul {
   margin: 0;
   padding: 0;
@@ -132,6 +136,7 @@
   .footer-column {
     flex-direction: column;
     align-items: start;
+    width: auto;
   }
 
   .footer-title {
@@ -171,6 +176,10 @@
 
   .back-to-top {
     padding: 0;
+  }
+
+  .footer-icons {
+    width: auto;
   }
 
   .footer-icons ul {
