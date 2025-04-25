@@ -624,6 +624,10 @@ main {
     margin: 0 0 6px;
   }
 
+  .large-card-image {
+    width: 100%;
+  }
+
   .power-text {
     padding: 0 60px;
   }
