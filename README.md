@@ -8,14 +8,14 @@
 | Element | In progress | Partially complete | Fully complete |
 | :-                | :-: | :-: | :-: |
 | Header            | [ ] | [ ] | [X] |
-| Main article      | [ ] | [X] | [ ] |
+| Main article      | [ ] | [ ] | [X] |
 | Page bullets      | [ ] | [ ] | [X] |
 | Black menu        | [ ] | [ ] | [X] |
 | Discover more     | [ ] | [ ] | [X] |
 | X-BOW             | [ ] | [ ] | [X] |
 | Powerwear         | [ ] | [ ] | [X] |
 | KTM Tech          | [ ] | [ ] | [X] |
-| KTM News          | [X] | [ ] | [ ] |
+| KTM News          | [ ] | [X] | [ ] |
 | Read more         | [ ] | [ ] | [X] |
 | Newsletter        | [ ] | [ ] | [X] |
 | Disclaimer        | [ ] | [ ] | [X] |
@@ -48,7 +48,7 @@ Tänk på att samtliga filer och mappar ska namnges så att det tydligt framgår
 ### Krav för väl godkänt:
 
 1. [ ] Kraven för godkänt är uppfyllda.
-2. [ ] Elementen på sidan skall vara fullt responsiva - alltså matcha orginalhemsidans responsivitet.
+2. [X] Elementen på sidan skall vara fullt responsiva - alltså matcha orginalhemsidans responsivitet.
 3. [ ] Det ska finnas flera skärmdumpar på orginalhemsidans utseende för olika skärmstorlekar - minst en för mobil, en för tablet, och en för desktop.
 4. [ ] Färger, storlekar och avstånd skall matcha orignalhemsidans.
 5. [X] Ett ikonset (css fil från FontAwesome eller MaterialUI) ska laddas in i head taggen, ikoner från filen skall sedan användas på minst ett ställe i html-koden.
