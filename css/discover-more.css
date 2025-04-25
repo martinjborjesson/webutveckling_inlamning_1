@@ -1,0 +1,118 @@
+.discover-more-container {
+  flex-direction: column;
+}
+
+.discover-more-card {
+  margin: 0 10px 40px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discover-more-card-image {
+  width: 100%;
+}
+
+.discover-more-card-text {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.discover-more-card .subheading {
+  width: 100%;
+  margin: 30px 0 4.5px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.discover-more-card .heading {
+  margin: 0 0 5px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media (width >=440px) {
+  .discover-more-card-image {
+    aspect-ratio: 4 / 3;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .discover-more-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (width >=577px) {
+  .discover-more-card {
+    position: relative;
+  }
+
+  .discover-more-card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    color: white;
+  }
+
+  .discover-more-card .subheading {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .discover-more-card .heading {
+    font-size: 85px;
+    line-height: 85px;
+  }
+}
+
+@media (width >=740px) {
+  .discover-more-card-image {
+    aspect-ratio: 7 / 4;
+  }
+}
+
+@media (width >=768px) {
+  .discover-more-card-text {
+    position: unset;
+    bottom: unset;
+    left: unset;
+    z-index: unset;
+    height: auto;
+    color: black;
+  }
+
+  .discover-more-card .subheading {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .discover-more-card .heading {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+@media (width >=992px) {
+  .discover-more-container {
+    flex-direction: row;
+  }
+
+  .discover-more-card {
+    margin: 0 10px 60px;
+  }
+
+  .discover-more-card-image {
+    aspect-ratio: 1/1;
+  }
+
+  .shift-image-20 img {
+    object-position: 20% center;
+  }
+}
